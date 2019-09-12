@@ -9,14 +9,6 @@ a {
     font-family:'Open Sans Condensed', sans-serif;
 }
 
-.landing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-main {
-    order: -1;
-}
 h1 {
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -25,21 +17,3 @@ h1 {
 h1 span {
     font-size: 3rem;
 }
-
-
-
-
-
-
-
-
-/* .gorilla {
-    display: flex;
-    justify-content: center;
-}
-img {
-    position: absolute;
-    object-fit: cover;
-    align-content: center;
-
-} */
