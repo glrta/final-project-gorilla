@@ -1,0 +1,41 @@
+footer {
+    flex-basis: 100%;
+    color: #fff;
+}
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    width: 60%;
+    margin: 20vh auto 0 auto;
+    background-color: #000;
+}
+footer h4 {
+    font-weight: 700;
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+.contact p:first-of-type {
+    font-size: 2rem;
+}
+.contact p:last-of-type {
+    font-size: 1rem;
+    margin-top: 200px;
+}
+
+@media screen and (max-width: 760px) {
+    .contact {
+        width: 80%;
+    }
+    footer h4 {
+        font-size: 4rem;
+    }
+    .contact p:first-of-type {
+        font-size: 1rem;
+    }
+    .contact p:last-of-type {
+        font-size: .6rem;
+    }
+}

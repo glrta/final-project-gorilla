@@ -1,19 +1,13 @@
-* {
-    box-sizing: border-box;
-}
-a {
-    text-decoration: none;
-    color: black;
-}
-:root {
-    font-family:'Open Sans Condensed', sans-serif;
-}
+@import "./reset.css";
+@import "./global.css";
+@import "./logo.css";
+@import "./gorilla-menu.css";
+@import "./tagline.css";
+@import "./layout-template.css";
+@import "./about.css";
+@import "./exhibitions.css";
+@import "./ornaments.css";
+@import "./gigs.css";
+@import "./past.css";
+@import "./footer.css";
 
-h1 {
-    font-size: 1.5rem;
-    text-transform: uppercase;
-    font-weight: 700;
-}
-h1 span {
-    font-size: 3rem;
-}

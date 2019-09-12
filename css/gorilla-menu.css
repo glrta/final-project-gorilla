@@ -1,0 +1,73 @@
+nav {
+    flex-basis: 100%;
+    background-image: url(../images/gorilla.png); 
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: 46% 10% 44%;
+    grid-template-rows: 53% 5% 5% 5% 32%;
+    grid-row-gap: 0.5rem;
+    grid-template-areas:
+    ". . . "
+    "one . four"
+    "two . five"
+    "three . six"
+    ". . . ";
+}
+li {
+    background: yellow;
+    font-weight: 700;
+    font-size: 4vw;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+li:hover {
+    background-color: magenta;   
+}
+
+li:nth-of-type(1) {
+    transform-origin: bottom right;
+    transform: rotate(24deg);
+    text-align: right;
+    grid-area: one;
+    place-self: end;
+}
+li:nth-of-type(2) {
+    transform-origin: bottom right;
+    transform: rotate(5deg);
+    text-align: right;
+    grid-area: two;
+    place-self: center end;
+}
+li:nth-of-type(3) {
+    transform-origin: bottom right;
+    transform: rotate(-24deg);
+    text-align: right;
+    grid-area: three;
+    place-self: start end;
+    margin-right: -8px;
+}
+li:nth-of-type(4) {
+    transform-origin: bottom left;
+    transform: rotate(-20deg);
+    grid-area: four;
+    place-self: end start;
+}
+li:nth-of-type(5) {
+    transform-origin: top left;
+    transform: rotate(20deg);
+    grid-area: five;
+    place-self: start start;
+}
+
+
+@media screen and (max-width: 550px) {
+    nav {
+        grid-template-rows: 50% 5% 5% 5% 32%;
+}
+    li {
+        font-size: 5vw;
+    }
+}

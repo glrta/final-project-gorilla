@@ -1,0 +1,27 @@
+.wrapper {
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-content: flex-end;
+}
+.page {
+    flex-basis: 95%;
+    margin-top: 10vh;
+}
+.tag {
+    flex-basis: 3%;
+    font-weight: 700;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    align-self: center;
+
+}
+.tag a {
+    background: yellow;
+    padding: .3rem 2rem .3rem .3rem;
+    font-size: 1.5rem;
+}
+.tag a:hover {
+    background-color: magenta;   
+}
