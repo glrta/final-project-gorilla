@@ -35,4 +35,13 @@ h1 span {
     font-size: 4rem;
 }
 
-
+/* .tag {
+    background: yellow;
+    font-weight: 700;
+    text-transform: uppercase;
+    transform: rotate(-90deg);
+    position: fixed;
+    left: 0;
+    top: 2rem;
+    padding: 1em 0;
+} */
