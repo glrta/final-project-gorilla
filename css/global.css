@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+html {
+    font-family:'Open Sans Condensed', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 1fr;
+    margin-top: 1fr;
+}
+h1 span {
+    font-size: 4rem;
+}
+
+footer {
+    position: -webkit-sticky; 
+    position:sticky;
+    top: 0;
+    height: 10vh;
+    background-color: #fff;
+}
