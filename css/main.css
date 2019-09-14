@@ -23,7 +23,7 @@ h1 span {
     grid-template-columns: 1fr;
     grid-template-areas:
     "main";
-    max-width: 1340px;
+    max-height: 1400px;
     min-width: 297px;
     margin: 0 auto;
 }
@@ -63,6 +63,9 @@ li {
     nav {
         grid-template-rows: 50% 5% 5% 5% 32%;
 }
+    li {
+        font-size: 5vw;
+    }
 }
 li:nth-of-type(1) {
     transform-origin: bottom right;
