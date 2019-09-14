@@ -1,0 +1,40 @@
+.cards {
+    background-image: url(../images/gigs.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    max-height: 90vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: .5rem;
+
+}
+.card {
+    padding: 1rem;
+    background-color: magenta;
+    color: #fff;
+}
+.card h2 {
+    font-weight: 700;
+    text-transform: uppercase
+}
+.cards article:nth-of-type(1) {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+}
+.cards article:nth-of-type(2) {
+    grid-column: 2 / 3;
+    grid-row: 4 / 5;
+}
+
+.cards article:nth-of-type(3) {
+    grid-column: 4 / 5;
+    grid-row: 4 / 5;
+}
+
+.cards article:nth-of-type(4) {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+}
