@@ -1,0 +1,22 @@
+.wrapper {
+    display: flex;
+}
+.page {
+    flex-basis: 95vw;
+}
+.tag {
+    font-weight: 700;
+    text-transform: uppercase;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    padding: 10rem 0 0 1rem;
+    align-self: flex-end;
+}
+.tag a {
+    background: yellow;
+    padding: .3rem 2rem .3rem .3rem;
+    font-size: 1.5rem;
+}
+.tag a:hover {
+    background-color: magenta;   
+}
