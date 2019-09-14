@@ -18,8 +18,9 @@ nav {
 li {
     background: yellow;
     font-weight: 700;
-    font-size: 5vw;
+    font-size: 4vw;
     list-style-type: none;
+    text-transform: uppercase;
 }
 li:hover {
     background-color: magenta;   
