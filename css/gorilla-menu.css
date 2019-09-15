@@ -25,6 +25,7 @@ li {
 li:hover {
     background-color: magenta;   
 }
+
 li:nth-of-type(1) {
     transform-origin: bottom right;
     transform: rotate(24deg);

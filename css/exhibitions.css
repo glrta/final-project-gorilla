@@ -2,10 +2,15 @@
     display: flex;
     align-items: center;
     height: 90vh;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    width: 95vw;
+
 }
 .exhibition {
-    width: 900px;
-    height: 500px;
+    flex: 0 0 auto;
+    width: 600px;
+    height: 400px;
     padding: 50px;
     margin: 50px;
     border: 10px solid #000;
