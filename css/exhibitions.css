@@ -1,14 +1,16 @@
 .current {
     display: flex;
+    align-items: center;
+    height: 100%;
 }
 .exhibition {
-    width: 400px;
-    height: 500px;
+    width: 900px;
+    height: 600px;
     padding: 50px;
     margin: 50px;
     border: 10px solid #000;
     position: relative;
-    background-position: center 50px;
+    background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -17,7 +19,6 @@
 }
 .manifesto {
     background-image: url(../images/women-naked-museum.jpg); 
-    width: 600px;
 }
 .badly {
     background-image: url(../images/seeing-lass-than-half.jpg); 
@@ -25,36 +26,31 @@
 .festival {
     background-image: url(../images/museums-discriminate.jpg); 
 }
-.exhibition h2, .when, .where{
+.exhibition h2, .when {
     position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: .5em;
+    width: max-content;
 }
 .exhibition h2 {
-    width: 250px;
-    bottom: -40px;
-    right: 5px;
+    max-width: 65%;
+    bottom: -55px;
+    right: 5%;
     background-color:#000;
     color: magenta;
-    font-size: 2rem;
     text-align: end;
-    padding: .5em;
-    font-weight: 700;
-    font-size: 2rem;
-    text-transform: uppercase;
 }
-.start, .end {
-    text-shadow: #000 1px 1px;
+.when {
     background-color: #fff;
-    width: max-content;
-    padding: .5em;
-    font-weight: 700;
-    font-size: 2rem;
-    text-transform: uppercase;
+    top: -50px;
+    left: 60px;
 }
-.start {
-    top: -110px;
-    /* left: -100px; */
+.where {
+    position: absolute;
+    top: 115%;
 }
-.end {
-    top: -70px;
-    left: 100px;
+.where::before {
+    content: 
 }
