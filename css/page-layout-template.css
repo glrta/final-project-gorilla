@@ -4,18 +4,20 @@
 }
 .page {
     flex-basis: 95%;
-    margin: auto;
-    padding: .2fr;
     max-width: 3500px;
+    margin: auto;
+    padding: 1rem;
+    height: 90vh;
+    
     
 }
 .tag {
-    flex-basis: 5%;
+    flex-basis: 1%;
     font-weight: 700;
     text-transform: uppercase;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
-    padding: 10rem 0 0 1rem;
+    margin-bottom: 10rem;
     align-self: flex-end;
     height: 90vh;
 }

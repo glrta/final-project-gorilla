@@ -1,6 +1,6 @@
 .cards {
     background-image: url(../images/gigs.jpg);
-    background-position: center;
+    background-position: center bottom;
     background-size: contain;
     background-repeat: no-repeat;
     height: 95vh;

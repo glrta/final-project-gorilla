@@ -12,6 +12,7 @@
     font-weight: 700;
     font-size: 7rem;
     z-index: 1;
+    letter-spacing: 0.01rem;
 }
 .streets {
     background-image: url(/images/guerrilla-girls-in-action.jpg); 
