@@ -3,12 +3,14 @@
     align-content: space-between;
 }
 .page {
-    flex-basis: 95vw;
-    margin: .2fr;
+    flex-basis: 95%;
+    margin: auto;
+    padding: .2fr;
     max-width: 3500px;
     
 }
 .tag {
+    flex-basis: 5%;
     font-weight: 700;
     text-transform: uppercase;
     writing-mode: vertical-rl;
