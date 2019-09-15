@@ -1,8 +1,12 @@
 .wrapper {
     display: flex;
+    align-content: space-between;
 }
 .page {
     flex-basis: 95vw;
+    margin: .2fr;
+    max-width: 3500px;
+    
 }
 .tag {
     font-weight: 700;

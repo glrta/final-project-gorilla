@@ -12,7 +12,6 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    max-width: 3500px;
     margin: 0 auto;
 }
 footer {
