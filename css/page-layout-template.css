@@ -7,9 +7,6 @@
     max-width: 3500px;
     margin: auto;
     padding: 1rem;
-    height: 90vh;
-    
-    
 }
 .tag {
     flex-basis: 1%;
@@ -18,8 +15,7 @@
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     margin-bottom: 10rem;
-    align-self: flex-end;
-    height: 90vh;
+    align-self: center;
 }
 .tag a {
     background: yellow;

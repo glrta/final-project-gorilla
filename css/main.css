@@ -1,9 +1,10 @@
 @import "./reset.css";
 @import "./global.css";
+@import "./logo.css";
 @import "./gorilla-menu.css";
 @import "./tagline.css";
 @import "./page-layout-template.css";
 @import "./resistance.css";
-@import "./gigs.css";
 @import "./exhibitions.css";
-
+@import "./ornaments.css";
+@import "./gigs.css";

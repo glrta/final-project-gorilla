@@ -1,11 +1,11 @@
 .current {
     display: flex;
     align-items: center;
-    height: 100%;
+    height: 90vh;
 }
 .exhibition {
     width: 900px;
-    height: 600px;
+    height: 500px;
     padding: 50px;
     margin: 50px;
     border: 10px solid #000;
