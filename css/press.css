@@ -1,0 +1,15 @@
+/* .news {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+}
+.press article {
+    background-color: #aaaaaa;
+    height: 300px;
+    width: 400px;
+    margin-right: -300px;
+    transform: skewY(-20deg);
+}
+.press article:nth-of-type(odd) {
+    margin-bottom: 50px;
+} */
