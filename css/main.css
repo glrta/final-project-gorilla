@@ -4,8 +4,10 @@
 @import "./gorilla-menu.css";
 @import "./tagline.css";
 @import "./page-layout-template.css";
-@import "./resistance.css";
+@import "./about.css";
 @import "./exhibitions.css";
 @import "./ornaments.css";
 @import "./gigs.css";
-@import "./press.css";
+@import "./past.css";
+@import "./footer.css";
+
