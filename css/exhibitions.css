@@ -5,7 +5,6 @@
     flex-wrap: nowrap;
     overflow-x: auto;
     width: 95vw;
-
 }
 .exhibition {
     flex: 0 0 auto;
@@ -55,7 +54,4 @@
 .where {
     position: absolute;
     top: 115%;
-}
-.where::before {
-    content: 
 }
