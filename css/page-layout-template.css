@@ -1,12 +1,15 @@
 .wrapper {
     display: flex;
     align-content: space-between;
+    /* justify-content: space-between; 
+    align-content: flex-end; */
 }
 .page {
     flex-basis: 95%;
     max-width: 3500px;
     margin: auto;
     padding: 1rem;
+    margin-top: 10vh;
 }
 .tag {
     flex-basis: 1%;
