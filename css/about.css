@@ -1,61 +1,47 @@
 .resistance {
-    height: 90vh;
+    height: 120vh;
     display: grid;
-    grid-template-columns: .1fr 5fr 1fr 3fr .1fr;
-    grid-template-rows: 0.5fr 1fr 1fr 0.5fr 2fr 0.5fr;
-    grid-gap: 1rem;
+    grid-template-columns: 10% minmax(40%, 900px) 40% 10%;
+    grid-template-rows: 0.2fr 1fr 1fr;
 }
 .resistance h2 {
-    grid-column: 2 / 4;
+    grid-column: 2 / 3;
     grid-row: 1 / 3;
     color: magenta;
     font-weight: 700;
     font-size: 7rem;
-    z-index: 1;
-    letter-spacing: 0.01rem;
 }
 .streets {
+    grid-column: 1 / 5;
+    grid-row: 2 / 4;
     background-image: url(/images/guerrilla-girls-in-action.jpg); 
-    background-position: top 0;
+    background-position: top left;
     background-size: contain;
     background-repeat: no-repeat;
-    grid-column: 1 / 5;
-    grid-row: 2 / 7;
+    z-index: -1;
 }
 
 .text {
-    grid-column: 3 / 6;
-    grid-row: 5 / 6;
-    place-self: start center;
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.5;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    place-self: start;
+    font-size: 1.2rem;
 }
 .text p {
     text-align: justify;
-    background-color: #fff;
+    background-color:#fff;
     padding: 1rem;
 }
-.text p:last-of-type {
-    text-align: center;
-    font-weight: 700;
-    background-color: #fff;
-    
-}
 
-@media screen and (max-width: 850px) {
-    .streets {
-        grid-column: 1 / 6;
-        grid-row: 2 / 5;
-    }
+@media screen and (max-width: 1200px) {
     .text {
-        grid-column: 2 / 5;
-        grid-row: 3 / 6;
-    }
-    .resistance h2 {
-        font-size: 3rem;
+        grid-column: 2 / 4;
     }
     .resistance {
-        grid-template-rows: 0.1fr .5fr .5fr .5fr .1fr;
+        height: 90vh;
+    }
+    .resistance h2 {
+        grid-column: 2 / 4;
+        font-size: 2rem;
     }
 }

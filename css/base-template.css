@@ -1,26 +1,22 @@
 .wrapper {
+    flex-basis: 100%;
     display: flex;
     justify-content: space-between; 
     align-content: flex-end;
-    /* before: align-content: space-between */
 }
 .page {
     flex-basis: 95%;
-    max-width: 3500px;
-    margin: auto;
-    /* padding: 1rem; */
     margin-top: 10vh;
-    padding-left: 1rem;
-    padding-right: 1rem;
 }
 .tag {
-    flex-basis: 1%;
+    flex-basis: 3%;
     font-weight: 700;
     text-transform: uppercase;
     writing-mode: vertical-rl;
     transform: rotate(180deg);
     margin-bottom: 10rem;
     align-self: center;
+
 }
 .tag a {
     background: yellow;

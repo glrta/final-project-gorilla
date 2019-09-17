@@ -1,5 +1,5 @@
 nav {
-    margin: 0 auto;
+    flex-basis: 100%;
     background-image: url(../images/gorilla.png); 
     background-position: center;
     background-size: contain;

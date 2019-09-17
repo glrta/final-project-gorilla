@@ -4,19 +4,21 @@
     height: 90vh;
     flex-wrap: nowrap;
     overflow-x: auto;
-    width: 95vw;
+    
 }
 .exhibition {
     flex: 0 0 auto;
-    width: 600px;
+    width: 350px;
     height: 400px;
-    padding: 50px;
     margin: 50px;
     border: 10px solid #000;
     position: relative;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.exhibition:first-of-type {
+    margin-left: 10;
 }
 .advantages {
     background-image: url(../images/advantages-woman.jpg); 
@@ -49,9 +51,10 @@
 .when {
     background-color: #fff;
     top: -50px;
-    left: 60px;
+    left: 40px;
 }
 .where {
     position: absolute;
     top: 115%;
 }
+

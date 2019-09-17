@@ -1,8 +1,8 @@
 .tagline {
     align-self: center;
     font-size: 5vw;
-    font-weight: 300;
+    font-weight: 700;
     text-transform: uppercase;
-    padding: 5rem;
+    margin: 20vh auto 15vh;
     flex-basis: 100%;
 }
