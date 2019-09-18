@@ -1,9 +1,26 @@
 footer {
     flex-basis: 100%;
+    color: #fff;
 }
-
 .contact {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    width: 60%;
+    margin: 20vh auto 0 auto;
+    background-color: #000;
 }
-
+footer h4 {
+    font-weight: 700;
+    font-size: 8rem;
+    text-transform: uppercase;
+}
+.contact p:first-of-type {
+    font-size: 2rem;
+}
+.contact p:last-of-type {
+    font-size: 1rem;
+    margin-top: 200px;
+}
