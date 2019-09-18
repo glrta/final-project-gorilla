@@ -63,6 +63,7 @@
     }   
     .gig {
         flex-direction: column;
+        align-content: flex-end;
     }
     .cards article:nth-of-type(1) {
         grid-column: 1 / 2;
@@ -87,5 +88,6 @@
     .horizontal {
         writing-mode: vertical-rl;
         transform: rotate(180deg);
+        flex-grow: 2;
     }
     }
