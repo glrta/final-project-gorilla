@@ -19,9 +19,6 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-.exhibition:first-of-type {
-    margin-left: 10;
-}
 .advantages {
     background-image: url(../images/advantages-woman.jpg); 
 }
@@ -59,4 +56,3 @@
     position: absolute;
     top: 117%;
 }
-
