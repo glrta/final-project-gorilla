@@ -1,0 +1,58 @@
+.current {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+    width: 95vw;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    
+    
+}
+.exhibition {
+    flex: 0 0 auto;
+    width: 350px;
+    height: 400px;
+    margin: 50px;
+    border: 10px solid #000;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.advantages {
+    background-image: url(../images/advantages-woman.jpg); 
+}
+.manifesto {
+    background-image: url(../images/women-naked-museum.jpg); 
+}
+.badly {
+    background-image: url(../images/seeing-lass-than-half.jpg); 
+}
+.festival {
+    background-image: url(../images/museums-discriminate.jpg); 
+}
+.exhibition h2, .when {
+    position: absolute;
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+    padding: .5em;
+    width: max-content;
+}
+.exhibition h2 {
+    max-width: 65%;
+    bottom: -55px;
+    right: 5%;
+    background-color:#000;
+    color: magenta;
+    text-align: end;
+}
+.when {
+    background-color: #fff;
+    top: -50px;
+    left: 40px;
+}
+.where {
+    position: absolute;
+    top: 117%;
+}
