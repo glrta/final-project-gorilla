@@ -5,14 +5,12 @@
     width: 95vw;
     flex-wrap: nowrap;
     overflow-x: auto;
-    
-    
 }
 .exhibition {
     flex: 0 0 auto;
-    width: 350px;
-    height: 400px;
-    margin: 50px;
+    width: 290px;
+    height: 360px;
+    margin: 25px;
     border: 10px solid #000;
     position: relative;
     background-position: center;

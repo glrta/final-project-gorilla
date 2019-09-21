@@ -7,4 +7,5 @@
     border-right: 50px solid transparent;
     border-top: 100px solid #000;
     margin: 15vh auto 10vh;
+    z-index: 1;
 }

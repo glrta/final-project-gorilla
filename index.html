@@ -12,17 +12,17 @@
 <body>
     <section id="landing">
         <nav>
-            <li><a href="#about">the resistance</a></li>
-            <li><a href="#exhibitions">current exhibitions</a></li>
-            <li><a href="#footer">book us</a></li> 
-            <li><a href="#gigs">future gigs</a></li>
-            <li><a href="#">past activist work</a></li>
+            <li class="hvr-sweep-to-left"><a href="#about">the resistance</a></li>
+            <li class="hvr-sweep-to-left"><a href="#exhibitions">current exhibitions</a></li>
+            <li class="hvr-sweep-to-left"><a href="#footer">book us</a></li> 
+            <li class="hvr-sweep-to-right"><a href="#gigs">future gigs</a></li>
+            <li class="hvr-sweep-to-right"><a href="#">past activist work</a></li>
         </nav> 
     </section>
     <header class="logo">
         <h1><span>g</span>uerrilla <span>g</span>irls</h1>
     </header>
-    <div class="tagline">
+    <div class="tagline" ScrollReveal().reveal('.triangle');>
         <p>conscience of the art world</p>
     </div>
     <section id="about" class="wrapper about">
@@ -30,15 +30,15 @@
         </div>
         <div class="page">
             <article class="resistance"> 
-                <h2>reinventing the F word: FEMINISM</h2>
-                <div class="streets"></div>
-                <arcticle class="text">
+                <h2 class="rellax" data-rellax-speed="1" data-rellax-percentage="0.5">reinventing the F word: FEMINISM</h2>
+                <div class="streets rellax" data-rellax-speed="-1"></div>
+                <arcticle class="text rellax" data-rellax-speed="2" data-rellax-percentage="0.5">
                     <p>The Guerrilla Girls are feminist activist artists. We wear gorilla masks in public and use facts, humor and outrageous visuals to expose gender and ethnic bias as well as corruption in politics, art, film, and pop culture. Our anonymity keeps the focus on the issues, and away from who we might be: we could be anyone and we are everywhere. We believe in an intersectional feminism that fights discrimination and supports human rights for all people and all genders. We undermine the idea of a mainstream narrative by revealing the understory, the subtext, the overlooked, and the downright unfair.</p>
                 </arcticle>
             </article>
         </div>
     </section>
-    <section id="exhibitions" class="wrapper exhibitions">
+    <section id="exhibitions" class="wrapper exhibitions" data-rellax-percentage="0.5">
             <div class="tag"><a href="#landing">current exhibitions</a>
             </div>
             <div class="page"> 
@@ -126,8 +126,8 @@
         <div class="tag"><a href="#landing">future gigs</a>
         </div>
         <div class="page"> 
-            <div class="cards">
-                    <article class="gig card">
+            <div class="cards rellax" data-rellax-speed="-1" data-rellax-percentage="0.5">
+                    <article class="gig card rellax" data-rellax-speed="3" data-rellax-percentage="0.5">
                         <div class="horizontal">
                             <h2>Guerrilla Girls at beyond the streets</h2>
                             <div class="location">
@@ -142,7 +142,7 @@
                                 <div>Sun, 7-8pm</div>
                         </div>
                     </article>
-                    <article class="gig card">
+                    <article class="gig card rellax" data-rellax-speed="-1" data-rellax-percentage="0.5">
                         <div class="horizontal">
                             <h2>The art of behaving badly</h2>
                             <div class="location">
@@ -156,7 +156,7 @@
                             <div>Thu 7-8pm</div>
                         </div>  
                     </article>
-                    <article class="gig card">
+                    <article class="gig card rellax" data-rellax-speed="2" data-rellax-percentage="0.5">
                         <div class="horizontal">
                             <h2>Guerrilla Girls</h2>
                                 <div class="location">
@@ -171,7 +171,7 @@
                             <div>Tue, 6-7.30pm</div>
                         </div>
                     </article>
-                    <article class="gig card">
+                    <article class="gig card rellax" data-rellax-speed="-1" data-rellax-percentage="0.5">
                         <div class="horizontal">
                             <h2>Guerrilla Girls at Bucknell Bniversity</h2>
                             <div class="location">
@@ -189,12 +189,17 @@
             </div>
         </div>
     </section>
-    <footer id="footer" class="footer">
+    <footer id="footer" class="footer rellax" data-rellax-speed="1" data-rellax-percentage="0.5">
         <div class="contact">
             <h4>book us</h4>                    
             <p>appearances | workshops | exhibitions</p>                
             <p>GA/FEWD52 - GLRTA final projet, Sep 2019</p>
         </div>
     </footer>
+    <script src="./script.js/smoothScroll.js"></script>  
+    <script src="./script.js/rellax.min.js"></script>
+    <script>
+    var rellax = new Rellax('.rellax');
+    </script>
 </body>
 </html>

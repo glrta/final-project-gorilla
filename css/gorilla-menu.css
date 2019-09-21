@@ -23,10 +23,6 @@ li {
     list-style-type: none;
     text-transform: uppercase;
 }
-li:hover {
-    background-color: magenta;   
-}
-
 li:nth-of-type(1) {
     transform-origin: bottom right;
     transform: rotate(24deg);
@@ -61,7 +57,6 @@ li:nth-of-type(5) {
     grid-area: five;
     place-self: start start;
 }
-
 
 @media screen and (max-width: 550px) {
     nav {

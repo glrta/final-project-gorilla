@@ -2,6 +2,7 @@
 @import "./global.css";
 @import "./logo.css";
 @import "./gorilla-menu.css";
+@import "./:hover-min.css";
 @import "./tagline.css";
 @import "./layout-template.css";
 @import "./about.css";
