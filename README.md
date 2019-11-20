@@ -1,13 +1,9 @@
-## First front-end project: Guerrilla Girls website
-https://glrta.github.io/final-project-gorilla/
+# Final project: Gorilla
 
-Playing with HTML, CSS and JS Parallax.
+This is my first front-end project created at the conclusion of the course Front-end Web Development, cohort 52, undertaken every Mon & Wed, 6pm-9pm, from 15 July to 23 September 2019, at General Assembly in London. It can be viewed via github webpage - https://glrta.github.io/final-project-gorilla/. 
 
+It is a single page website inspired by the Guerrilla Girls, a group of anonymous feminist artists that "wear gorilla masks in public and use facts, humor and outrageous visuals to expose gender and ethnic bias as well as corruption in politics, art, film, and pop culture." (GUERRILLA GIRLS: REINVENTING THE 'F' WORD: FEMINISM - https://www.guerrillagirls.com).
 
-Final project<br>
-Front-end web development (FEWD52)<br>
-Mon & Wed - 6pm-9pm - 10 weeks (15 Jul - 23 Sep 2019)<br>
-General Assembly - London 
 
 
 
