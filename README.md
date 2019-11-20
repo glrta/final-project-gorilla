@@ -1,9 +1,15 @@
-# final-project-gorilla
+## First front-end project: Guerrilla Girls website
+https://glrta.github.io/final-project-gorilla/
 
-Whole body is flex column.
+Playing with HTML, CSS and JS Parallax.
 
-0. Landing page: Gorilla menu. Layout made with grid.
-1. About page: uses layout template - container is 'wrapper' and contains two elements: 'tag' to the left and 'page' with rest.
+
+Final project<br>
+Front-end web development (FEWD52)<br>
+Mon & Wed - 6pm-9pm - 10 weeks (15 Jul - 23 Sep 2019)<br>
+General Assembly - London 
+
+
 
 
 
