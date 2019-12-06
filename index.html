@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://kit.fontawesome.com/f28284acce.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.5/dist/scrollreveal.min.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <title>GLRTA final project</title>
@@ -200,6 +200,11 @@
     <script src="./script.js/rellax.min.js"></script>
     <script>
     var rellax = new Rellax('.rellax');
+    </script>
+    <script>
+        ScrollReveal().reveal('.tagline', { delay: 50, easing: 'ease-in', distance: '50px', reset: true});
+        ScrollReveal().reveal('.triangle', { delay: 50, easing: 'ease-in', distance: '50px', reset: true});
+        ScrollReveal().reveal('.current', { delay: 100, easing: 'ease-in', distance: '50px', reset: true});
     </script>
 </body>
 </html>
